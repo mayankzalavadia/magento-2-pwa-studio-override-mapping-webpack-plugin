@@ -2,12 +2,23 @@
   "name": "@mayankzalavadia/magento-2-pwa-studio-override-mapping-webpack-plugin",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:mayankzalavadia/magento-2-pwa-studio-override-mapping-webpack-plugin.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mayankzalavadia/magento-2-pwa-studio-override-mapping-webpack-plugin.git"
+  },
   "author": "Mayank Zalavadia",
   "license": "MIT",
   "pwa-studio": {
     "targets": {
       "intercept": "./intercept.js"
     }
+  },
+  "description": "This plugin is used on PWA Studio project. It helps you to override Components and Files.",
+  "bugs": {
+    "url": "https://github.com/mayankzalavadia/magento-2-pwa-studio-override-mapping-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/mayankzalavadia/magento-2-pwa-studio-override-mapping-webpack-plugin#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
