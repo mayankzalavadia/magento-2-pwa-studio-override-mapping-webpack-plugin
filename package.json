@@ -1,0 +1,13 @@
+{
+  "name": "@mayankzalavadia/magento-2-pwa-studio-override-mapping-webpack-plugin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:mayankzalavadia/magento-2-pwa-studio-override-mapping-webpack-plugin.git",
+  "author": "Mayank Zalavadia",
+  "license": "MIT",
+  "pwa-studio": {
+    "targets": {
+      "intercept": "./intercept.js"
+    }
+  }
+}
